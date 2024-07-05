@@ -1,0 +1,4 @@
+Penjelasan dari fungsi BalancedBracket:
+
+
+Analisis kompleksitas dari fungsi Balanced Bracket adalah sebagai berikut: Kompleksitas waktu adalah O(n), di mana n adalah panjang string input, karena hanya mengiterasi string input sekali dengan operasi konstan di setiap iterasi (memasukkan ke stack, memeriksa bagian atas stack, dan mengeluarkan dari stack). Kompleksitas ruangnya juga O(n) karena dalam kasus terburuk, semua karakter dari string input mungkin perlu dimasukkan ke dalam stack, membuat ukuran maksimum stack sebesar n. Pendekatan ini adalah yang paling efisien karena menghindari iterasi yang tidak perlu dan meminimalkan penggunaan ruang tambahan, dibandingkan dengan pendekatan lain seperti rekursi atau nested loop yang akan meningkatkan kompleksitas waktu dan berpotensi menyebabkan kesalahan stack overflow untuk string input yang lebih besar.
